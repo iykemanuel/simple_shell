@@ -1,4 +1,7 @@
-#include "shell.h"
+#include <stdio.h>                                         #include <stdlib.h>
+#include <sys/stat.h>                                      #include <sys/types.h>                                     #include <sys/wait.h>                                      #include <unistd.h>
+#include <string.h>                                        #include <stdbool.h>
+#include <errno.h>
 /**
  * posh_exit - exit the shell
  */
